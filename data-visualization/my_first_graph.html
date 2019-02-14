@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.0.1.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="ec74ec1c-166a-4e03-8d67-e8ae6add4575"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="3697">
+          {"44f398fa-c76a-406f-bb56-ac790442e15b":{"roots":{"references":[{"attributes":{"below":[{"id":"3496","type":"LinearAxis"}],"left":[{"id":"3501","type":"LinearAxis"}],"renderers":[{"id":"3496","type":"LinearAxis"},{"id":"3500","type":"Grid"},{"id":"3501","type":"LinearAxis"},{"id":"3505","type":"Grid"},{"id":"3514","type":"BoxAnnotation"},{"id":"3524","type":"GlyphRenderer"}],"title":{"id":"3528","type":"Title"},"toolbar":{"id":"3512","type":"Toolbar"},"x_range":{"id":"3488","type":"DataRange1d"},"x_scale":{"id":"3492","type":"LinearScale"},"y_range":{"id":"3490","type":"DataRange1d"},"y_scale":{"id":"3494","type":"LinearScale"}},"id":"3487","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"3502","type":"BasicTicker"},{"attributes":{"callback":null},"id":"3488","type":"DataRange1d"},{"attributes":{},"id":"3511","type":"HelpTool"},{"attributes":{},"id":"3494","type":"LinearScale"},{"attributes":{"axis_label":"Number of Attacking Aircraft","formatter":{"id":"3565","type":"BasicTickFormatter"},"plot":{"id":"3487","subtype":"Figure","type":"Plot"},"ticker":{"id":"3502","type":"BasicTicker"}},"id":"3501","type":"LinearAxis"},{"attributes":{"callback":null,"renderers":"auto","tooltips":[["Attack Date","@MSNDATE"],["Attacking Aircraft","@AC_ATTACKING"],["Tons of Munitions","@TOTAL_TONS"],["Type of Aircraft","@AIRCRAFT_NAME"]]},"id":"3529","type":"HoverTool"},{"attributes":{},"id":"3569","type":"UnionRenderers"},{"attributes":{"overlay":{"id":"3514","type":"BoxAnnotation"}},"id":"3508","type":"BoxZoomTool"},{"attributes":{"plot":{"id":"3487","subtype":"Figure","type":"Plot"},"ticker":{"id":"3497","type":"BasicTicker"}},"id":"3500","type":"Grid"},{"attributes":{},"id":"3506","type":"PanTool"},{"attributes":{"axis_label":"Tons of Munitions Dropped","formatter":{"id":"3567","type":"BasicTickFormatter"},"plot":{"id":"3487","subtype":"Figure","type":"Plot"},"ticker":{"id":"3497","type":"BasicTicker"}},"id":"3496","type":"LinearAxis"},{"attributes":{},"id":"3497","type":"BasicTicker"},{"attributes":{"callback":null,"data":{"AC_ATTACKING":{"__ndarray__":"AAAAAAAAIEAAAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAAiQAAAAAAAAPh/AAAAAAAA+H8AAAAAAAAkQAAAAAAAACBAAAAAAAAAJkAAAAAAAIBDQAAAAAAAAPA/AAAAAAAAMEAAAAAAAAD4fwAAAAAAADpAAAAAAAAA8D8AAAAAAAAmQAAAAAAAAABAAAAAAAAAJkAAAAAAAADwPwAAAAAAACpAAAAAAAAA+H8AAAAAAAAsQAAAAAAAAEBAAAAAAAAA8D8AAAAAAAAcQAAAAAAAAPA/AAAAAAAAJkAAAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAAoQAAAAAAAAABAAAAAAAAAOEAAAAAAAAD4fwAAAAAAAPA/AAAAAAAAGEAAAAAAAADwPwAAAAAAABBAAAAAAAAAHEAAAAAAAAD4fwAAAAAAAChAAAAAAAAA+H8AAAAAAAAqQAAAAAAAABBAAAAAAAAA+H8AAAAAAAA7QAAAAAAAABBAAAAAAAAAIkAAAAAAAAAYQA==","dtype":"float64","shape":[50]},"AIRCRAFT_NAME":["P38","B17","B24","B26","B24","B17","LANCASTER","B24","A20","P47","B24","B24","B24","LANCASTER","B17","F06","B17","LIGHT","B17","B17","B17","B26","B24","B24","B24","B17","B29","B17","B26","B26","P39","B17","P39","B24","WELLINGTON","A26","B25","B17","B24","B17","WHITLEY","B25","B29","B17","P47","A20","B24","A36","B25","A20"],"COUNTRY_FLYING_MISSION":["USA","NaN","USA","USA","NaN","USA","GREAT BRITAIN","NaN","USA","USA","NaN","USA","NaN","GREAT BRITAIN","USA","USA","NaN","GREAT BRITAIN","NaN","NaN","USA","NaN","NaN","NaN","NaN","NaN","USA","NaN","NaN","NaN","USA","USA","USA","USA","GREAT BRITAIN","USA","USA","NaN","USA","NaN","GREAT BRITAIN","USA","USA","USA","USA","USA","NaN","USA","USA","USA"],"MSNDATE":["07/15/1945","06/14/1944","07/06/1943","03/23/1945","01/16/1945","02/04/1944","06/27/1944","02/06/1945","10/19/1944","02/10/1945","07/11/1944","04/19/1945","06/25/1944","12/29/1943","01/15/1945","08/10/1945","12/31/1944","02/20/1944","04/10/1945","09/09/1944","04/04/1945","05/08/1944","05/13/1944","04/14/1945","03/04/1945","04/30/1944","04/13/1945","08/08/1944","02/23/1945","04/16/1945","08/28/1944","01/21/1945","06/19/1944","06/19/1945","09/29/1941","03/31/1945","03/05/1944","01/02/1945","06/01/1944","08/25/1944","01/04/1941","09/27/1943","08/14/1945","07/17/1944","05/13/1944","11/03/1943","03/01/1945","04/20/1944","03/22/1943","04/26/1943"],"NAF":["5 AF","NaN","8 AF","8 AF","NaN","9 AF","RAF","NaN","5 AF","5 AF","NaN","5 AF","NaN","RAF","12 AF","14 AF","NaN","RAF","NaN","NaN","8 AF","NaN","NaN","NaN","NaN","NaN","20 AF","NaN","NaN","NaN","5 AF","8 AF","5 AF","13 AF","RAF","12 AF","14 AF","NaN","13 AF","NaN","RAF","5 AF","20 AF","8 AF","5 AF","12 AF","NaN","10 AF","10 AF","12 AF"],"TAKEOFF_BASE":["NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN"],"TAKEOFF_COUNTRY":["NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN"],"TAKEOFF_LATITUDE":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","shape":[50]},"TAKEOFF_LONGITUDE":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","shape":[50]},"TGT_COUNTRY":["PHILIPPINE ISLANDS","FRANCE","UNKNOWN OR NOT INDICATED","GERMANY","GERMANY","GERMANY","FRANCE","GERMANY","NEW GUINEA","PHILIPPINE ISLANDS","FRANCE","FORMOSA AND RYUKYU ISLANDS","FRANCE","GERMANY","AUSTRIA","CHINA","GERMANY","HOLLAND OR NETHERLANDS","GERMANY","GERMANY","GERMANY","BELGIUM","GERMANY","FRANCE","GERMANY","FRANCE","JAPAN","FRANCE","GERMANY","GERMANY","NEW GUINEA","GERMANY","NEW GUINEA","BORNEO","GERMANY","FRANCE","THAILAND OR SIAM","GERMANY","CAROLINE ISLANDS","GERMANY","FRANCE","NEW GUINEA","JAPAN MINING","FRANCE","NEW GUINEA","ITALY","GERMANY","BURMA","BURMA","TUNISIA"],"TGT_LATITUDE":{"__ndarray__":"SwRHVVXVMEB7FK5H4XpIQAAAAAAAAPh/zczMzMwMSkBxPQrXoxBKQM3MzMzMDElAZmZmZmZmSUBxPQrXoxBKQLtI/OXu7gzAafdxVVXVLECPwvUoXI9FQAAAAAAAADdAmpmZmZn5RUCkcD0K10NKQJqZmZmZGUhAgciFd3e3PEBmZmZmZsZKQFyPwvUonEpAAAAAAABgSkBcj8L1KJxJQJqZmZmZWUpAZmZmZmYmSUD2KFyPwvVKQHE9Ctej0EZAXI/C9SgcSEDD9Shcj+JGQGZmZmZm5kFApHA9CteDSEDD9Shcj2JJQM3MzMzMLEhAozafqqqqAsAAAAAAAABJQM3MzMzMzArAAAAAAAAA9L8AAAAAAAD4f/YoXI/CVUZATpVSRETEMkA9CtejcP1IQGZmZmZmZh1AZmZmZmbGSkAzMzMzMzNIQKM2n6qqqgzAmpmZmZm5QUD2KFyPwvVHQFGbT1VVVRHACtejcD2qRkDD9Shcj2JIQLX7uKqqKjlASwRHVVVVNkAK16NwPSpCQA==","dtype":"float64","shape":[50]},"TGT_LOCATION":["GUBANO","LE BOURGET","UNIDENTIFIED","AHAUS","MAGDEBURG","FRANKFURT AM MAIN","MARQUISE","MAGDEBURG","UTAROM","CORREGIDOR","TOULON","TAINAN","AVIGNON","BERLIN","VIENNA","PAOCHING","HAMBURG","LEEUWARDEN","ORANIENBURG","DUSSELDORF","DEDELSTORF","NAMUR","TUTOW","ROYAN","EBINGEN","LYON","MATSUDO","BRETTEVILLE SURLAIZ","ELSDORF","HOCHZOLL","IDORE","ASCHAFFENBURG","ANEIN RIVER","BALIK PAPAN","NaN","44 40 N 006 20 E","CHIENGMAI","BITBURG","ETEN ISLAND","POLITZ","BREST","WEWAK","MAIZURU Z","CHARNY","BOGIA","45 20 N 007 00 E","INGOLSTADT","SAWNGHKA","GOKTEIK","36 20 N 010 00 E"],"TGT_LONGITUDE":{"__ndarray__":"RHXOqqoqXkBxPQrXo3ADQAAAAAAAAPh/FK5H4XoUHEDD9Shcj0InQNejcD0KVyFAMzMzMzMz+z/D9Shcj0InQF1r71NVtWBAvIoxVVUlXkC4HoXrUbgXQM3MzMzMDF5ASOF6FK5HE0DXo3A9CtcqQB+F61G4XjBAiFf+ISJyW0AAAAAAAAAkQDMzMzMzMxdACtejcD2KKkAfhetRuB4bQAAAAAAAACVAhetRuB6FE0AK16NwPYoqQHsUrkfhevC/CtejcD0KIkBmZmZmZmYTQM3MzMzMfGFAH4XrUbge1b9I4XoUrkcaQNejcD0K1yVAXsWYqqrCYEDXo3A9ClciQJqZmZmZ2WFAvIoxVVU1XUAAAAAAAAD4f1K4HoXrURlARvSEiIi4WEAUrkfhehQaQPheMkRE/GJApHA9CtcjLUAAAAAAAAASwKE6Z1VV9WFAX8WYqqrqYEApXI/C9SgKQAAAAAAAIGJAAAAAAAAAHEBcj8L1KNwmQBPBUVVVJVhAugt7d3c3WEAAAAAAAAAkQA==","dtype":"float64","shape":[50]},"THEATER":["PTO","ETO","NaN","ETO","ETO","ETO","ETO","ETO","PTO","PTO","ETO","PTO","ETO","ETO","ETO","CBI","ETO","ETO","ETO","ETO","ETO","ETO","ETO","ETO","ETO","ETO","PTO","ETO","ETO","ETO","PTO","ETO","PTO","PTO","ETO","ETO","PTO","ETO","PTO","ETO","ETO","PTO","PTO","ETO","PTO","MTO","ETO","CBI","CBI","MTO"],"TONS_FRAG":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","dtype":"float64","shape":[50]},"TONS_HE":{"__ndarray__":"AAAAAAAAIEAAAAAAAABgQAAAAAAAADJAAAAAAAAAQUAAAAAAAAA2QAAAAAAAAFNAAAAAAADAdEAAAAAAAAA2QAAAAAAAACBAAAAAAAAAJkAAAAAAAABWQAAAAAAAAAAAAAAAAACAR0AAAAAAAAAAAAAAAAAAgFJAAAAAAAAAAAAAAAAAAIBAQAAAAAAAAABAAAAAAAAAMUAAAAAAAAAIQAAAAAAAADpAAAAAAAAAT0AAAAAAAAAAAAAAAAAAABRAAAAAAAAAAAAAAAAAAAAyQAAAAAAAAAAAAAAAAACAQEAAAAAAAAA2QAAAAAAAgENAAAAAAAAA8D8AAAAAAAAyQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACJAAAAAAAAAMkAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5QAAAAAAAAPA/AAAAAAAA8D8AAAAAAABFQAAAAAAAAABAAAAAAAAACEAAAAAAAAAIQA==","dtype":"float64","shape":[50]},"TONS_IC":{"__ndarray__":"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAADB/QAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAMUAAAAAAAAAAAAAAAAAAACpAAAAAAAAAAAAAAAAAAAA5QAAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAABRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==","dtype":"float64","shape":[50]},"TOTAL_TONS":{"__ndarray__":"AAAAAAAAIEAAAAAAAABgQAAAAAAAADJAAAAAAAAAQUAAAAAAAAA2QAAAAAAAAFNAAAAAAADAdEAAAAAAAAA2QAAAAAAAACBAAAAAAAAA8D8AAAAAAABWQAAAAAAAAAhAAAAAAACAR0AAAAAAADB/QAAAAAAAgFJAAAAAAAAA8D8AAAAAAIBAQAAAAAAAAABAAAAAAAAAQUAAAAAAAAAIQAAAAAAAgENAAAAAAAAAT0AAAAAAAAA5QAAAAAAAABRAAAAAAAAACEAAAAAAAAAyQAAAAAAAABRAAAAAAACAQEAAAAAAAAA2QAAAAAAAgENAAAAAAAAA8D8AAAAAAABCQAAAAAAAAAAAAAAAAAAAVkAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAACJAAAAAAAAAMkAAAAAAAAAQQAAAAAAAABBAAAAAAACAREAAAAAAAAA5QAAAAAAAAPA/AAAAAAAAHEAAAAAAAIBQQAAAAAAAAABAAAAAAAAACEAAAAAAAAAIQA==","dtype":"float64","shape":[50]},"UNIT_ID":["431 FS","NaN","NaN","NaN","NaN","NaN","NaN","NaN","8 S","311 FS","NaN","403 BS","NaN","NaN","NaN","118 S","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","NaN","314 BW","NaN","NaN","NaN","82 FS","NaN","110 FS","507 BG","NaN","NaN","22 BS","NaN","372 BS","NaN","NaN","499 BS","504 BG","NaN","340 FS","NaN","NaN","528 S","491 BS","NaN"],"index":[91083,175499,114964,141564,119435,169510,177000,119353,90395,35064,172213,57161,154741,177601,168687,18251,140157,48242,141417,60334,148745,163389,124382,75062,59087,112865,77132,138487,119609,149266,33675,144435,11444,172206,6369,42492,53182,46278,92045,113340,69084,72161,150858,124112,33889,86242,165589,38876,55455,66385]},"selected":{"id":"3570","type":"Selection"},"selection_policy":{"id":"3569","type":"UnionRenderers"}},"id":"3486","type":"ColumnDataSource"},{"attributes":{"dimension":1,"plot":{"id":"3487","subtype":"Figure","type":"Plot"},"ticker":{"id":"3502","type":"BasicTicker"}},"id":"3505","type":"Grid"},{"attributes":{"plot":null,"text":"Attacking Aircraft and Munitions Dropped"},"id":"3528","type":"Title"},{"attributes":{},"id":"3507","type":"WheelZoomTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"TOTAL_TONS"},"y":{"field":"AC_ATTACKING"}},"id":"3523","type":"Circle"},{"attributes":{"fill_color":{"value":"green"},"line_color":{"value":"green"},"size":{"units":"screen","value":10},"x":{"field":"TOTAL_TONS"},"y":{"field":"AC_ATTACKING"}},"id":"3522","type":"Circle"},{"attributes":{"source":{"id":"3486","type":"ColumnDataSource"}},"id":"3525","type":"CDSView"},{"attributes":{"callback":null},"id":"3490","type":"DataRange1d"},{"attributes":{},"id":"3565","type":"BasicTickFormatter"},{"attributes":{},"id":"3570","type":"Selection"},{"attributes":{"data_source":{"id":"3486","type":"ColumnDataSource"},"glyph":{"id":"3522","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"3523","type":"Circle"},"selection_glyph":null,"view":{"id":"3525","type":"CDSView"}},"id":"3524","type":"GlyphRenderer"},{"attributes":{},"id":"3567","type":"BasicTickFormatter"},{"attributes":{},"id":"3509","type":"SaveTool"},{"attributes":{},"id":"3492","type":"LinearScale"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"plot":null,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"3514","type":"BoxAnnotation"},{"attributes":{},"id":"3510","type":"ResetTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"3506","type":"PanTool"},{"id":"3507","type":"WheelZoomTool"},{"id":"3508","type":"BoxZoomTool"},{"id":"3509","type":"SaveTool"},{"id":"3510","type":"ResetTool"},{"id":"3511","type":"HelpTool"},{"id":"3529","type":"HoverTool"}]},"id":"3512","type":"Toolbar"}],"root_ids":["3487"]},"title":"Bokeh Application","version":"1.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('3697').textContent;
+                  var render_items = [{"docid":"44f398fa-c76a-406f-bb56-ac790442e15b","roots":{"3487":"ec74ec1c-166a-4e03-8d67-e8ae6add4575"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
